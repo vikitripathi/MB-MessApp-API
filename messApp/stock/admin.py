@@ -3,7 +3,7 @@ from stock.models import Item,Unit,Transaction
 
 # Register your models here.
 class UnitAdmin(admin.ModelAdmin):
-	list_display = ('name','shorthand')
+	list_display = ('name','fullname')
 
 class UnitInline(admin.StackedInline):
     model = Unit    

@@ -32,7 +32,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/img-05/lastSummer/newMessApp/messApp/env"
+set -gx VIRTUAL_ENV "/home/img-05/lastSummer/newMessApp/MB-MessApp-API/messApp/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
